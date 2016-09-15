@@ -1,0 +1,27 @@
+{
+  "name": "visual-storybook-server",
+  "version": "1.0.0",
+  "description": "\"Server for visual storybook\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+	  "node": "6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YancyShmancy/visual-storybook-server.git"
+  },
+  "author": "Allison Yancy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YancyShmancy/visual-storybook-server/issues"
+  },
+  "homepage": "https://github.com/YancyShmancy/visual-storybook-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
